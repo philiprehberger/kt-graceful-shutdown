@@ -12,7 +12,7 @@ Graceful application shutdown with signal handling and ordered teardown.
 
 ```kotlin
 dependencies {
-    implementation("com.philiprehberger:graceful-shutdown:0.1.2")
+    implementation("com.philiprehberger:graceful-shutdown:0.1.3")
 }
 ```
 
@@ -22,7 +22,7 @@ dependencies {
 <dependency>
     <groupId>com.philiprehberger</groupId>
     <artifactId>graceful-shutdown</artifactId>
-    <version>0.1.2</version>
+    <version>0.1.3</version>
 </dependency>
 ```
 
