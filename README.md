@@ -2,12 +2,9 @@
 
 [![CI](https://github.com/philiprehberger/kt-graceful-shutdown/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/kt-graceful-shutdown/actions/workflows/publish.yml)
 [![Maven Central](https://img.shields.io/maven-central/v/com.philiprehberger/graceful-shutdown)](https://central.sonatype.com/artifact/com.philiprehberger/graceful-shutdown)
+[![License](https://img.shields.io/github/license/philiprehberger/kt-graceful-shutdown)](LICENSE)
 
 Graceful application shutdown with signal handling and ordered teardown.
-
-## Requirements
-
-- Kotlin 1.9+ / Java 17+
 
 ## Installation
 
@@ -15,7 +12,7 @@ Graceful application shutdown with signal handling and ordered teardown.
 
 ```kotlin
 dependencies {
-    implementation("com.philiprehberger:graceful-shutdown:0.1.0")
+    implementation("com.philiprehberger:graceful-shutdown:0.1.2")
 }
 ```
 
@@ -25,7 +22,7 @@ dependencies {
 <dependency>
     <groupId>com.philiprehberger</groupId>
     <artifactId>graceful-shutdown</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.2</version>
 </dependency>
 ```
 
