@@ -1,6 +1,6 @@
 # graceful-shutdown
 
-[![CI](https://github.com/philiprehberger/kt-graceful-shutdown/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/kt-graceful-shutdown/actions/workflows/publish.yml)
+[![Tests](https://github.com/philiprehberger/kt-graceful-shutdown/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/kt-graceful-shutdown/actions/workflows/publish.yml)
 [![Maven Central](https://img.shields.io/maven-central/v/com.philiprehberger/graceful-shutdown)](https://central.sonatype.com/artifact/com.philiprehberger/graceful-shutdown)
 [![License](https://img.shields.io/github/license/philiprehberger/kt-graceful-shutdown)](LICENSE)
 
@@ -11,9 +11,7 @@ Graceful application shutdown with signal handling and ordered teardown.
 ### Gradle (Kotlin DSL)
 
 ```kotlin
-dependencies {
-    implementation("com.philiprehberger:graceful-shutdown:0.1.3")
-}
+implementation("com.philiprehberger:graceful-shutdown:0.1.4")
 ```
 
 ### Maven
@@ -22,7 +20,7 @@ dependencies {
 <dependency>
     <groupId>com.philiprehberger</groupId>
     <artifactId>graceful-shutdown</artifactId>
-    <version>0.1.3</version>
+    <version>0.1.4</version>
 </dependency>
 ```
 
