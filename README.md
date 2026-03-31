@@ -1,9 +1,8 @@
 # graceful-shutdown
 
 [![Tests](https://github.com/philiprehberger/kt-graceful-shutdown/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/kt-graceful-shutdown/actions/workflows/publish.yml)
-[![Maven Central](https://img.shields.io/maven-central/v/com.philiprehberger/graceful-shutdown)](https://central.sonatype.com/artifact/com.philiprehberger/graceful-shutdown)
-[![License](https://img.shields.io/github/license/philiprehberger/kt-graceful-shutdown)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Maven Central](https://img.shields.io/maven-central/v/com.philiprehberger/graceful-shutdown.svg)](https://central.sonatype.com/artifact/com.philiprehberger/graceful-shutdown)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/kt-graceful-shutdown)](https://github.com/philiprehberger/kt-graceful-shutdown/commits/main)
 
 Graceful application shutdown with signal handling and ordered teardown.
 
@@ -63,6 +62,24 @@ tracker.track { handleRequest(req) }
 ./gradlew build
 ```
 
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/kt-graceful-shutdown)
+
+🐛 [Report issues](https://github.com/philiprehberger/kt-graceful-shutdown/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/kt-graceful-shutdown/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
+
 ## License
 
-MIT
+[MIT](LICENSE)
